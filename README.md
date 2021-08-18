@@ -1,2 +1,4 @@
 # todojs
-<p style="text-align: center;"><img src="https://cdn.marlonb.de/marlonlogo.png"></p>
+<p>Hier eine kleine Plattform für eine To-do-Liste.</p>
+<p>Keine Gewährleistung das es funktioniert.</p>
+<p>Getestet im Firefox, Chrome und Safari.</p>
