@@ -149,4 +149,14 @@ form button:hover {
   font-size: 30px;
   text-decoration: none;
 }
+
+@media screen and (max-width: 390px) {
+  .todo-input {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border: none;
+    background: white;
+    outline: none;
+  }
+}
 /*# sourceMappingURL=style.css.map */
