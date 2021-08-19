@@ -1,5 +1,5 @@
 * {
-  font-family: sans-serif;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -39,7 +39,7 @@ form input, form button {
 }
 
 form button {
-  color: #d88771;
+  color: #10ebeb;
   background: white;
   cursor: pointer;
   -webkit-transition: all .4s ease;
@@ -47,8 +47,12 @@ form button {
 }
 
 form button:hover {
-  background: #d88771;
+  background-image: linear-gradient(120deg, #1476d1, #10ebeb);
   color: white;
+}
+
+.todocon {
+  min-height: 50vh;
 }
 
 .todo-container {
@@ -93,7 +97,6 @@ form button:hover {
 }
 
 .trash-btn, .complete-btn {
-  background: #ff6f47;
   color: white;
   border: none;
   padding: 1rem;
@@ -128,59 +131,22 @@ form button:hover {
   opacity: 0;
 }
 
-select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  outline: none;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  border: none;
-}
-
-.select {
-  margin: 1rem;
-  position: relative;
-  overflow: hidden;
-}
-
-select {
-  color: #ff6f47;
-  width: 10rem;
-  cursor: pointer;
-  padding: 1rem;
-}
-
-.select::after {
-  content: "\f125";
-  display: inline-block;
-  font-family: bootstrap-icons !important;
-  font-style: normal;
-  font-weight: normal !important;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  vertical-align: -.125em;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  position: absolute;
-  background: #ff6f47;
-  top: 0;
-  right: 0;
-  padding: 1rem;
-  pointer-events: none;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-
-.select:hover::after {
-  background: white;
-  color: #ff6f47;
-}
-
 .formdiv {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.linkgit {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 0 auto 0 auto;
+}
+
+.linkgit a {
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
